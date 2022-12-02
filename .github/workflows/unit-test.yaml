@@ -19,4 +19,4 @@ jobs:
         python -m pip install -r requirements-dev.txt
     - name: Analysing the code with pytest
       run: |
-        python3 -m pytest
+        python3 -m pytest --collect-only
